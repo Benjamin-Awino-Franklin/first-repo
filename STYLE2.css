@@ -1,0 +1,20 @@
+.form{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.form h1{
+    font-family: "Agency FB";
+    color:chartreuse;
+    text-align: center;
+    text-decoration: underline;
+}
+.form input{
+
+}

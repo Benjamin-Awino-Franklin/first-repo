@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    /*background-image: linear-gradient((rgba(0,0,0,0.75)),rgba(0,0,0,0.25)url("Mustang.jpg"));*/
+    /*background-color: darkgreen;*/
+    background-image: url("Mustang.jpg");
+    background-color:aqua;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    width: 92%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: violet;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: violet;
+}
+.content h1{
+    font-family:"Bell MT";
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 9px;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background-color: violet;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.content .cn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.content .cn:hover{
+    background-color: black;
+    color: aqua;
+}
+.content span{
+    color: darkred;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 350px;
+    background-color: violet;
+    position: absolute;
+    top: -20px;
+    left: 890px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+.form h2{
+    width: 200px;
+    font-family: "Poor Richard";
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    border-top: none;
+     border-left: none;
+    border-right: none;
+    color: darkred;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: sans-serif;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: navajowhite;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: black;
+}
+.btn a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.form .link{
+    font-family: "Bell MT";
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: black;
+}
